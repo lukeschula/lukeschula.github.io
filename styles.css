@@ -1,0 +1,554 @@
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../SourceSansPro-Regular.otf') format('opentype');
+  }
+
+  * {
+    font-family: 'Source Sans Pro';
+  }
+
+  :root {
+    --purple-accent: #C271FF;
+    --dark-navy: #071629;
+  }
+
+  html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 1440px;
+    height: 3718px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* HEADER */
+
+  header {
+    width: 1103.408px;
+    height: 29.461;
+    flex-shrink: 0;
+    position: relative;
+    top: 75px;
+    left: 175.67px;
+    right: 165px;
+  }
+
+  .topbar-container {
+    display: flex;
+    gap: 702.39px;
+  }
+
+  .topbar-container .menu {
+    display: flex;
+    gap: 52px;
+  }
+
+  .topbar-container .menu a {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+/* MAIN */
+
+main {
+    width: 1440px;
+    height: 3718px;
+  }
+
+  /* First Section */
+
+  .register-button {
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 22px;
+    background: var(--purple-accent);
+  }
+
+  .main-banner-container {
+    width: 1440px;
+    height: 1093px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%),
+                url(../images/smile-school-background.png) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+
+  .main-banner-container .main-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .main-banner-container .main-title-container h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .main-banner-container .main-title-container p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-spacing: 59px;
+    margin-top: 0;
+  }
+
+  .pro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1009px;
+    height: 237px;
+    flex-shrink: 0;
+    margin-left: 221.08px;
+  }
+
+  .pro-container .pro-avatar-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 139px;
+  }
+
+  .pro-container h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+
+  .pro-container h2 strong {
+    color: var(--purple-accent);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .pro-container .pro-avatar-container .pro {
+    width: 150px;
+    height: 237px;
+    flex-shrink: 0;
+  }
+
+  .pro-container .pro-avatar-container .pro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    flex-shrink: 0;
+  }
+
+  .pro-container .pro-avatar-container .pro h3 {
+    width: 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+  }
+
+  .pro-container .pro-avatar-container .pro p {
+    width: 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+/* Second Section */
+
+.testimonial-section {
+  width: 1440px;
+  height: 392px;
+  flex-shrink: 0;
+  background-color: var(--purple-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.testimonial blockquote {
+  width: 730px;
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+  margin-left: 0px;
+}
+
+.testimonial p {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
+#testimonial-name {
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px;
+  margin-top: 25px;
+}
+
+.testimonial-section .testimonials-container img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 25px;
+}
+
+.tutorial-section {
+  width: 1440px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorial-section h1 {
+  color: var(--dark-navy);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.tutorial-section h1 strong{
+  color: var(--purple-accent);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 624px;
+  line-height: normal;
+}
+
+.part_2_tutorials {
+  width: 1228px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center, space-evenly;
+  gap: 31px;
+}
+
+.tutorial-container {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 335px;
+  flex-shrink: 0;
+}
+
+.video-image {
+  width: 255px;
+  height: 154px;
+}
+
+.play-button-1 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 1;
+  top: 1810px;
+  left: 200px;
+}
+
+.play-button-2 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 1;
+  top: 1810px;
+  left: 485px;
+}
+
+.play-button-3 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 1;
+  top: 1810px;
+  left: 775px;
+}
+
+.play-button-4 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 1;
+  top: 1810px;
+  left: 1060px;
+}
+
+.tutorial-section h2 {
+  color: var(--dark-navy);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.video-desc {
+  color: rgba(7, 22, 41, 0.50);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0;
+}
+
+.tutorial-section .avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+.tutorial-section .avatar h3 {
+  color: var(--purple-accent);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.tutorial-section .avatar img {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 79px;
+  margin-top: 0;
+}
+
+.rating-container p {
+  color: var(--purple-accent);
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.membership-section {
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+  background-color: var(--dark-navy);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.part_3_free_membership {
+  display: flex;
+  flex-direction: row;
+  justify-content: center, space-evenly;
+  margin-top: 50px;
+  gap: 28px;
+}
+
+.membership-section h1 {
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.membership-section h1 strong {
+  color: var(--purple-accent);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dot {
+  width: 257px;
+  height: 153px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dot h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.dot p {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.register-button.membership {
+  margin-top: 75px;
+}
+
+.FAQ-section {
+  width: 1440px;
+  height: 858px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.part_4_FAQ {
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+}
+
+.FAQ-section h1 {
+  color: var(--dark-navy);
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.question-first-row, .question-second-row {
+  display: flex;
+  flex-direction: row;
+  gap: 220px;
+}
+
+.question {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.question h2 {
+  color: var(--dark-navy);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.question p {
+  color: rgba(7, 22, 41, 0.50);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* FOOTER */
+
+footer {
+  width: 1440px;
+  height: 249px;
+  flex-shrink: 0;
+  background-color: var(--dark-navy);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 736px;
+  margin-top: 75px;
+}
+
+.footer-container p {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}
